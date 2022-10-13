@@ -23,4 +23,4 @@ function file_picker_settings_field($settings, $value)
 				';
 	return $output;
 }
-vc_add_shortcode_param('file_picker', 'file_picker_settings_field', get_template_directory_uri() . '/inc/wp-bakery-file-picker/file_picker.js');
+vc_add_shortcode_param('file_picker', 'file_picker_settings_field', get_template_directory_uri() . '/inc/wp-bakery-file-picker/file-picker.js');
